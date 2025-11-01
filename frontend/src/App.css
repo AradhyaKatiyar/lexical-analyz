@@ -1,0 +1,86 @@
+body {
+  background-color: #0f111a;
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #4fc3f7;
+}
+
+.subtitle {
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.editor-container {
+  margin: 20px auto;
+  width: 80%;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.analyze-btn {
+  margin-top: 15px;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.analyze-btn:hover {
+  background: linear-gradient(90deg, #0072ff, #00c6ff);
+}
+
+.error-list {
+  margin-top: 25px;
+  text-align: left;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error-item {
+  background-color: #1e1f2e;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  border-left: 5px solid;
+}
+
+.error-item.lexical {
+  border-color: #ba68c8;
+}
+
+.error-item.syntax {
+  border-color: #ffb74d;
+}
+
+.error-item.semantic {
+  border-color: #ef5350;
+}
+
+.error-item.server {
+  border-color: #29b6f6;
+}
+
+.no-error {
+  color: #81c784;
+  font-weight: bold;
+  margin-top: 15px;
+}
