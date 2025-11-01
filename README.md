@@ -1,9 +1,4 @@
-Perfect 👍 Here’s a **professional and detailed README.md** for your **Line-by-Line Error Reporter** project (React + Node.js + C backend).
-It’s written in a clean GitHub-friendly format — ready to drop directly into your repo root.
 
----
-
-```markdown
 # 🧩 Line-by-Line Error Reporter
 
 A simple **compiler front-end simulator** that analyzes C-like code line-by-line and reports **Lexical, Syntax, and Semantic errors** in real time.  
